@@ -1,7 +1,6 @@
 const uniqid = require('uniqid');
 const fs = require('fs').promises;
 const path = require('path');
-const { isArray } = require('util');
 require('colors');
 
 const contactsPath = path.join(__dirname, './db/contacts.json');
