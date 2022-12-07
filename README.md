@@ -7,6 +7,6 @@ Get list with contact
 
 Show contact by ID ![GitHub actions settings](https://i.imgur.com/kKHQk8H.png)
 
-Remove contact by ID ![GitHub actions settings](https://i.imgur.com/RGVlPGQ.png)
+Add contact ![GitHub actions settings](https://i.imgur.com/RGVlPGQ.png)
 
-Add contact ![GitHub actions settings](https://i.imgur.com/ojSM01d.png)
+Remove contact by ID ![GitHub actions settings](https://i.imgur.com/ojSM01d.png)
