@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "colors": "^1.4.0",
+    "commander": "^9.4.1",
     "uniqid": "^5.4.0"
   }
 }

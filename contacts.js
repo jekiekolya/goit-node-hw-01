@@ -31,7 +31,7 @@ async function listContacts() {
   }
 }
 
-// Show contacts by ID
+// Show contact by ID
 async function getContactById(contactId) {
   try {
     const contactsList = await getContacts();
