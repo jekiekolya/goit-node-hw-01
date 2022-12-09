@@ -66,7 +66,11 @@ async function removeContact(contactId) {
     if (sortedContacts.length === contactsList.length) {
       console.log('We did not find contact!'.bgRed);
     } else {
-      await fs.writeFile(contactsPath, JSON.stringify(sortedContacts), 'utf-8');
+      await fs.writeFile(
+        contactsPath,
+        JSON.stringify(sortedContacts, null, 2),
+        'utf-8'
+      );
       console.log(
         `We successfully deleted contact with id - ${contactId}!`.bgGreen
       );
@@ -94,7 +98,11 @@ async function addContact(name, email, phone) {
 
     const newContacts = [...contactsList, contactForAdd];
 
-    await fs.writeFile(contactsPath, JSON.stringify(newContacts), 'utf-8');
+    await fs.writeFile(
+      contactsPath,
+      JSON.stringify(newContacts, null, 2),
+      'utf-8'
+    );
     console.log(`We successfully added contact!`.bgGreen);
     listContacts();
   } catch (error) {
